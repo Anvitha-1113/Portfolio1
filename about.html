@@ -1,0 +1,202 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gadiyakari Anvitha</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f6fa;
+      margin: 0;
+      color: #222;
+    }
+  .header {
+  background: url('https://www.freeppt7.com/uploads/180810/1-1PQ01J959162.jpg') no-repeat center center / cover;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+
+
+.logo {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a {
+  margin-left: 12px;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Updated button-link background colors for new menu items */
+.button-link.home {
+  background-color: #17181f; /* Blue */
+}
+
+.button-link.about {
+  background-color: #17181f; /* Green */
+}
+
+.button-link.skills {
+  background-color: #17181f; /* Purple */
+}
+
+.button-link.certification {
+  background-color: #17181f; /* Deep Orange */
+}
+
+.button-link.education {
+  background-color: #17181f; /* Indigo */
+}
+
+.button-link.projects {
+  background-color: #17181f; /* Cyan */
+}
+
+.button-link.contact {
+  background-color: #17181f; /* Pink */
+}
+
+.button-link:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+    .section {
+  max-width: 900px;
+  margin: 40px auto;
+  background: url('https://c4.wallpaperflare.com/wallpaper/103/524/851/abstract-gradient-wallpaper-preview.jpg') no-repeat center center / cover;
+  padding: 36px 28px;
+  border-radius: 10px;
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.07);
+}
+    h1, h3 , p ,h2{
+      color: #fff;
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+    button {
+      background: #3b4156;
+      color: #fff;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 8px;
+      font-size: 1em;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #fff;
+    }
+    .details {
+      display: none;
+      margin-top: 12px;
+      background: #fff;
+      padding: 13px 18px;
+      border-radius: 6px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 20px;
+      background: #3b4156;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #fff;
+    }
+    .contact-info a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .project {
+      margin-bottom: 18px;
+    }
+body {
+    /* Set the background image */
+    background-image: url('https://wallpaperaccess.com/full/5652006.jpg'); /* Replace 'your-image.jpg' */
+
+    /* Make sure the image covers the entire body */
+    background-size: cover;
+
+    /* Make sure the image doesn't repeat */
+    background-repeat: no-repeat;
+
+    /* Optional: You can fix the image position */
+    background-position: center center; /* Center the image */
+
+    /* Optional: Keep the background fixed while scrolling */
+    background-attachment: fixed;
+
+    /* Ensure the body takes up the full viewport */
+    min-height: 100vh; /* 100% of the viewport height */
+    margin: 0;       /* Remove default body margins */
+}
+
+html{
+  height: 100%;    </style>
+
+
+  </style>
+</head>
+<body>
+<link rel="stylesheet1" href="stylesheet1.css">
+
+  <header class="header">
+  <a href="#" class="logo">Gadiyakari Anvitha</a>
+  <nav class="navbar">
+    <a href="home.html" class="button-link home">Home</a>
+    <a href="about.html" class="button-link about">About</a>
+    <a href="skills.html" class="button-link skills">Skills</a>
+    <a href="certification.html" class="button-link certification">Certifications</a>
+    <a href="education.html" class="button-link education">Education</a>
+    <a href="projects.html" class="button-link projects">Projects</a>
+    <a href="contact.html" class="button-link contact">Contact</a>
+  </nav>
+</header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I am currently pursuing my MBA in Business Analytics from Anurag Group of Institutions. I aim to leverage my analytical mindset and business acumen in real-world projects.</p>
+    <button onclick="toggleDetails('aboutDetails')">See More About Me</button>
+   <div class="details" id="aboutDetails" style="
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/103/524/851/abstract-gradient-wallpaper-preview.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;">
+  <p>
+    I am eager to secure an entry-level position in Business Analytics, leveraging my MBA knowledge and analytical skills to contribute to the organization's growth while enhancing my professional expertise and fostering collaborative relationships.
+  </p>
+</div>  </section>
+
+  <script>
+    function toggleDetails(elementId) {
+      const detailsElement = document.getElementById(elementId);
+      detailsElement.style.display = (detailsElement.style.display === 'none' || detailsElement.style.display === '') 
+        ? 'block' 
+        : 'none';
+    }
+  </script>
+</body>
+</html>
